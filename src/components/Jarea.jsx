@@ -12,10 +12,9 @@ async function getdata(id){
 }
   return (
     <>
-    <div className="container ms-auto w-75 bg-dark">
+    <div className="container ms-auto w-75">
       <div className="row">
-        {item.map
-        ((elem)=>{return (
+        {item.map((elem)=>{return (
           <>
           <div className="col-md-3">
           <figure className='f-jarea'>

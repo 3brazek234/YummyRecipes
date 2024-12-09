@@ -19,10 +19,10 @@ return (
     <div className="container mx-auto w-75 py-4">
       <div className="row my-3 p-4">
         {ingr.map((itim ,index)=> 
-        <div className="col-3 my-4" key={index}>
-          <div className="  rounded-2 border p-5">
+        <div className="col-md-3 my-4" key={index}>
+          <div className=" p-5">
             <div className="position-relative text-center ">
-            <FontAwesomeIcon icon={faBowlFood} size='3x' className='text-success bg-opacity-10 ' />
+            <FontAwesomeIcon icon={faBowlFood} size='4x' className='text-success bg-opacity-10 ' />
             <div className="text-center text-white mt-3">
         
               <Link to={`/indetails/${itim.strIngredient}`}>

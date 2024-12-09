@@ -24,7 +24,7 @@ export default function App() {
     <div className="container">
       <h1 className="text-center my-3">Meal Search</h1>
 
-      {/* Search Inputs */}
+
       <div className="d-flex justify-content-around mb-3">
         <input
           type="text"
@@ -34,7 +34,7 @@ export default function App() {
         />
       </div>
 
-      {/* Results */}
+
       <div className="row">
         {meals.length > 0 ? (
           meals.map((meal) => (
